@@ -1,0 +1,70 @@
+/* styles.css */
+
+/* Réinitialisation des marges et des paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles du corps */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* En-tête */
+header {
+    background: #007bff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Section produit */
+.produit {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.IMG {
+ 
+  border-radius: 4px;
+  padding: 5px;
+  width:50%;
+  margin: 20px 0;
+
+}
+
+/* Bouton d'achat */
+.acheter {
+    background: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.acheter:hover {
+    background: #218838;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #007bff;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

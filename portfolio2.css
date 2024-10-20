@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles du corps */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* En-tête */
+header {
+    background: #0059ff;
+    color: #ffffffca;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fbfbfb;
+    text-decoration: none;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Projets */
+.projet {
+    margin-bottom: 20px;
+}
+
+.projet h3 {
+    color: #007bff;
+}
+
+/* Liens */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #0059ff;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
